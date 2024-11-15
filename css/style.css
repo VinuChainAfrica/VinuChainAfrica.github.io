@@ -1901,13 +1901,13 @@ h3 {
 
 /* line 47, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .brand_area .brand_active .single_brand img {
-  width: auto;
+  max-width: 100%;
   display: inline-block;
   filter: contrast(0);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 /* line 54, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
