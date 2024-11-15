@@ -1904,10 +1904,10 @@ h3 {
   max-width: 100%;
   display: inline-block;
   filter: contrast(0);
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.0s;
+  -moz-transition: 0.0s;
+  -o-transition: 0.0s;
+  transition: 0.0s;
 }
 
 /* line 54, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
