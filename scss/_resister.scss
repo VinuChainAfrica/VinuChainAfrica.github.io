@@ -48,7 +48,7 @@
                 width: auto;
                 display: inline-block;
                 filter: contrast(0);
-                @include transition(.3s);
+                @include transition(0s);
             }
             &:hover{
                 img{
