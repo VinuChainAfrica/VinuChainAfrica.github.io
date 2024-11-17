@@ -80,38 +80,8 @@
                         <div class="col-xl-8">
                             <div class="title_text title_text2 ">
                                 <h3>Event Schedule</h3>
-                                <a href="javascript:void(0);" onclick="addEventToCalendar()">Add to your Calendar</a>
+                               <!-- <a href="#" class="boxed-btn-white">Add to your Calendar</a> -->
                             </div>
-                            <script>
-                                function addEventToCalendar() {
-                                  const eventTitle = "Your Event Title";
-                                  const eventStartDate = new Date("2024-11-18T10:00:00"); // Replace with your event date and time
-                                  const eventEndDate = new Date("2024-11-18T12:00:00"); // Replace with your event end date and time
-                                
-                                  const eventDetails = `
-                                BEGIN:VCALENDAR
-                                VERSION:2.0
-                                BEGIN:VEVENT
-                                DTSTART:${eventStartDate.toISOString()}
-                                DTEND:${eventEndDate.toISOString()}
-                                SUMMARY:${eventTitle}
-                                DESCRIPTION:This is a description of your event.
-                                END:VEVENT
-                                END:VCALENDAR
-                                `;
-
-                                  const encodedEvent = encodeURIComponent(eventDetails);
-                                  const calendarLink = `data:text/calendar;charset=utf8,${encodedEvent}`;
-                                
-                                  const link = document.createElement('a');
-                                  link.href = calendarLink;
-                                  link.download = 'event.ics';
-                                  link.style.display = 'none';
-                                  document.body.appendChild(link);
-                                  link.click();
-                                  document.body.removeChild(link);
-                                }
-                            </script>
                         </div>
                     </div>
                 </div>
