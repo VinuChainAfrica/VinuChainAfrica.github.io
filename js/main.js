@@ -91,8 +91,12 @@ autoplaySpeed: 800,
   }
 });
 
-// count_dwon
-$('#clock').countdown('2024/12/6', function(event) {
+// Calculate the timestamp for 10 AM WAT on December 6, 2024
+const targetDate = new Date(2024, 11, 6, 10, 0, 0); // Month is 0-indexed (January = 0)
+const targetTimestamp = targetDate.getTime();
+
+// Initialize the countdown
+$('#clock').countdown(targetTimestamp, function(event) {
   $(this).html(event.strftime('<div class="countdown_time"><div class="single_countdown"><h3>%D</h3><span>days</span></div><div class="single_countdown"><h3>%H</h3><span>Hours</span></div><div class="single_countdown"><h3>%M</h3><span>Minutes</span></div><div class="single_countdown"><h3>%S</h3><span>Seconds</span></div></div>'));
 });
 
