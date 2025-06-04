@@ -92,7 +92,7 @@ autoplaySpeed: 800,
 });
 
 // Calculate the timestamp for 10 AM WAT on December 6, 2024
-const targetDate = new Date(2024, 11, 6, 10, 0, 0); // Month is 0-indexed (January = 0)
+const targetDate = new Date(2025, 5, 14, 10, 0, 0); // Month is 0-indexed (January = 0)
 const targetTimestamp = targetDate.getTime();
 
 // Initialize the countdown
