@@ -5055,6 +5055,16 @@ h6 {
   margin-right: 0;
 }
 
+@media (max-width: 767px) {
+    .partner-logo-column {
+        margin-bottom: 20px; /* Adds space below each logo column on mobile */
+    }
+    .community-partner-logo {
+        max-width: 100%; /* Ensures logos fit within the column */
+        height: auto;    /* Maintains aspect ratio */
+    }
+}
+
 /*============ Start Blog Single Styles  =============*/
 /* line 1049, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .blog_details {
