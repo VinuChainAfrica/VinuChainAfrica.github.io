@@ -4499,6 +4499,19 @@ h6 {
   font-size: 14px;
 }
 
+.community-partner-logo {
+    max-width: 250px;
+    height: auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.community-partner-logo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
 /* End Causes Area css
 ============================================================================================ */
 /*================= latest_blog_area css =============*/
